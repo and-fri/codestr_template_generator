@@ -1,0 +1,78 @@
+body {
+  background:rgba(240, 240, 240, 0.41);
+  letter-spacing:1px;
+  color: #707070;
+    font-weight:300;
+}
+
+.business-header {
+height: 250px;
+background: url('../images/back_g1.jpg') center center no-repeat ;
+background-size: cover;
+}
+
+.tagline {
+  padding-top:70px;
+  color:white;
+  letter-spacing:10px;
+  font-weight:lighter;
+}
+
+.about-header {
+/*  height: 200px;*/
+  background-color: #ffffff;
+  color: #707070;
+  border-color: #e9e9e9;
+}
+.about-wrap {
+  max-width:650px;
+  padding:50px 10px;
+}
+.site-description {
+  letter-spacing:2px;
+}
+.site-links {
+  margin-top:30px;
+}
+.padded-r {
+  margin-right:20px;
+}
+.content {
+  margin-top:20px;
+  max-width:650px;
+}
+.entry {
+  padding:15px;
+  padding-bottom:45px;
+}
+.more {
+/*  margin-top:25px;*/
+}
+.entry hr {
+  margin-top:0px;
+}
+.entry h2 {
+ letter-spacing:5px; 
+ font-weight:lighter;
+}
+.btn-noline {
+  background:none;
+  color:#707070;
+  border-color:#e9e9e9;
+}
+footer {
+  margin-top:50px;
+  opacity:0.6;
+}
+
+
+/* just in case of IE... */
+.browsehappy {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
